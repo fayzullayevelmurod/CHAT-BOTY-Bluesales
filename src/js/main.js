@@ -1,9 +1,9 @@
-let swiper = new Swiper(".commentSwiper", {
+let swiper = new Swiper(".bluesalesSwiper", {
   spaceBetween: 12,
   slidesPerView: 2,
   navigation: {
-    nextEl: ".comment-button-next",
-    prevEl: ".comment-button-prev",
+    nextEl: ".bluesales-button-next",
+    prevEl: ".bluesales-button-prev",
   },
   pagination: {
     el: ".comment-pagination",
@@ -21,15 +21,15 @@ let swiper = new Swiper(".commentSwiper", {
   },
 });
 
-let swiper2 = new Swiper(".commenttwoSwiper", {
+let swiper2 = new Swiper(".bluesalestwoSwiper", {
   spaceBetween: 12,
   slidesPerView: 1,
   navigation: {
-    nextEl: ".commenttwo-button-next",
-    prevEl: ".commenttwo-button-prev",
+    nextEl: ".bluesales-button-next",
+    prevEl: ".bluesales-button-prev",
   },
   pagination: {
-    el: ".commenttwo-pagination",
+    el: ".bluesales-pagination",
     type: "fraction",
   },
   breakpoints: {

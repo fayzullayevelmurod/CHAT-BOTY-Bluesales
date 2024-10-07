@@ -20,6 +20,8 @@ module.exports = {
         "card-bg": "#F3F3F380",
         "comment-bg": "#F3F3F3",
         "primary": "#0B0A0A",
+
+        "bluesales": "#008BE8",
       },
       padding: {
         '17': '4.375rem',
