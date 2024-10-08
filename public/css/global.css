@@ -14,14 +14,25 @@ body {
   @apply max-w-[1880px] mx-auto p-17 rounded-[20px] bg-white;
 }
 
+.contact_container {
+  @apply max-w-[1880px] mx-auto p-17;
+}
+
 @media (max-width: 1500px) {
   .container {
+    @apply p-12;
+  }
+  .contact_container {
     @apply p-12;
   }
 }
 
 @media (max-width: 991px) {
   .container {
+    @apply p-5;
+  }
+
+  .contact_container {
     @apply p-5;
   }
 }
