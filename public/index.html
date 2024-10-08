@@ -518,43 +518,48 @@
 
       <!-- contact -->
       <section>
-        <div class="max-w-[1880px] mx-auto 2xl:p-17 flex items-start gap-[42px]">
-          <div class="max-w-[921px]">
-            <h3 class="font-Gilroy font-semibold 2xl:text-[63px] 2xl:leading-[67.2px] xl:text-[56px] text-[28px] lg:text-[48px] sm:text-[36px]  xl:leading-[58px] lg:leading-[50px] sm:leading-[37px] leading-[29.9px] text-black md:mb-8 sm:mb-6 mb-4">
-              <span class="text-bluesales">Остались вопросы?</span> Нужна ли CRM, оставьте заявку с главной страницы?
-            </h3>
-            <p class="font-Onest font-normal text-black 2xl:text-2xl xl:text-20px md:text-[20px] sm:text-[18px] text-[16px]
-            2xl:leading-[32.4px] xl:leading-[27px] md:leading-[27px] sm:leading-[23.4px] leading-[21.6px] md:mb-12 mb-6">
-            Оставьте заявку на бесплатную консультацию, расскажите про свой проект и за 30 минут определимся нужно ли вам это или нет
-            </p>
-            <div class="rounded-[20px] bg-white p-6 max-w-[704px]">
-              <h6 class="font-Onest font-medium text-[28px] leading-[29.4px]">
-                ГДЕ С ВАМИ СВЯЗАТЬСЯ?
-              </h6>
-              <form action="#">
-                <div>
-                  <div>
-                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M7.12 10.79C8.56 13.62 10.88 15.93 13.71 17.38L15.91 15.18C16.18 14.91 16.58 14.82 16.93 14.94C18.05 15.31 19.26 15.51 20.5 15.51C21.05 15.51 21.5 15.96 21.5 16.51V20C21.5 20.55 21.05 21 20.5 21C11.11 21 3.5 13.39 3.5 4C3.5 3.45 3.95 3 4.5 3H8C8.55 3 9 3.45 9 4C9 5.25 9.2 6.45 9.57 7.57C9.68 7.92 9.6 8.31 9.32 8.59L7.12 10.79Z" fill="#0B0A0A"/>
-                    </svg>
-                    <input type="text" placeholder="Позвонить">
+        <div class="contact_container bg-bg-color">
+          <div class="flex items-start 2xl:gap-[42px] gap-5 xl:flex-row flex-col">
+            <div class="2xl:max-w-[921px] xl:max-w-[628px] w-full">
+              <h3 class="font-Gilroy font-semibold 2xl:text-[63px] 2xl:leading-[67.2px] xl:text-[56px] text-[28px] lg:text-[48px] sm:text-[36px] flex-wrap xl:leading-[58px] lg:leading-[50px] sm:leading-[37px] leading-[29.9px] text-black md:mb-8 sm:mb-6 mb-4">
+                <span class="text-bluesales">Остались вопросы?</span> Нужна ли CRM, оставьте заявку с главной страницы?
+              </h3>
+              <p class="font-Onest font-normal text-black 2xl:text-2xl xl:text-20px md:text-[20px] sm:text-[18px] text-[16px]
+              2xl:leading-[32.4px] xl:leading-[27px] md:leading-[27px] sm:leading-[23.4px] leading-[21.6px] md:mb-12 mb-6">
+              Оставьте заявку на бесплатную консультацию, расскажите про свой проект и за 30 минут определимся нужно ли вам это или нет
+              </p>
+              <div class="rounded-[20px] bg-white 2xl:p-6 sm:p-5 p-0 2xl:max-w-[704px] xl:max-w-[628px]">
+                <h6 class="font-Onest font-medium 2xl:mb-[36px] xl:mb-[24px] lg:mb-[36px] mb-[16px] 2xl:text-[28px] xl:text-[24px] lg:text-[28px] sm:text-[20px] text-[18px] 2xl:leading-[29.4px] xl:leading-[25px] lg:leading-[33px] sm:leading-[16px] leading-[18px]">
+                  ГДЕ С ВАМИ СВЯЗАТЬСЯ?
+                </h6>
+                <form action="#">
+                  <div class="flex gap-5 sm:flex-row flex-col">
+                    <div class="p-8 sm:h-auto h-[88px] rounded-[999px] sm:w-[50%] w-full border-bluesales border-[1px] flex items-center justify-center gap-6">
+                      <svg class="flex-shrink-0" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.12 10.79C8.56 13.62 10.88 15.93 13.71 17.38L15.91 15.18C16.18 14.91 16.58 14.82 16.93 14.94C18.05 15.31 19.26 15.51 20.5 15.51C21.05 15.51 21.5 15.96 21.5 16.51V20C21.5 20.55 21.05 21 20.5 21C11.11 21 3.5 13.39 3.5 4C3.5 3.45 3.95 3 4.5 3H8C8.55 3 9 3.45 9 4C9 5.25 9.2 6.45 9.57 7.57C9.68 7.92 9.6 8.31 9.32 8.59L7.12 10.79Z" fill="#0B0A0A"/>
+                      </svg>
+                      <input type="text" placeholder="Позвонить" class="max-w-[113px] font-Onest font-normal text-black-dark 2xl:text-2xl xl:text-20px md:text-[20px] sm:text-[18px] text-[16px] focus:outline-none
+                      2xl:leading-[32.4px] xl:leading-[27px] md:leading-[27px] sm:leading-[23.4px] leading-[21.6px] placeholder:text-black-dark">
+                    </div>
+                    <div class="p-8 sm:h-auto h-[88px] rounded-[999px] sm:w-[50%] w-full border-bluesales border-[1px] flex items-center justify-center gap-6">
+                      <svg class="flex-shrink-0" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M18.0094 5.85828C18.2101 5.77105 18.4297 5.74097 18.6454 5.77116C18.8612 5.80135 19.0651 5.89071 19.2361 6.02994C19.407 6.16918 19.5387 6.35319 19.6174 6.56284C19.6962 6.77248 19.7191 7.00008 19.6837 7.22196L17.8421 18.7596C17.6635 19.8725 16.4812 20.5107 15.4931 19.9564C14.6664 19.4926 13.4387 18.778 12.3344 18.0325C11.7823 17.6593 10.0909 16.4641 10.2988 15.6137C10.4774 14.8866 13.3194 12.1542 14.9433 10.5297C15.5807 9.89146 15.2901 9.52328 14.5373 10.1104C12.6681 11.568 9.66703 13.7846 8.67478 14.4086C7.79945 14.9587 7.34311 15.0527 6.79746 14.9587C5.80196 14.7876 4.87872 14.5226 4.1252 14.1997C3.10696 13.7636 3.15649 12.3177 4.12439 11.8967L18.0094 5.85828Z" fill="#0B0A0A"/>
+                      </svg>
+                      <input type="text" placeholder="Написать" class="max-w-[113px] font-Onest font-normal text-black-dark 2xl:text-2xl xl:text-20px md:text-[20px] sm:text-[18px] text-[16px] focus:outline-none
+                      2xl:leading-[32.4px] xl:leading-[27px] md:leading-[27px] sm:leading-[23.4px] leading-[21.6px] placeholder:text-black-dark">
+                    </div>
                   </div>
-                  <div>
-                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M18.0094 5.85828C18.2101 5.77105 18.4297 5.74097 18.6454 5.77116C18.8612 5.80135 19.0651 5.89071 19.2361 6.02994C19.407 6.16918 19.5387 6.35319 19.6174 6.56284C19.6962 6.77248 19.7191 7.00008 19.6837 7.22196L17.8421 18.7596C17.6635 19.8725 16.4812 20.5107 15.4931 19.9564C14.6664 19.4926 13.4387 18.778 12.3344 18.0325C11.7823 17.6593 10.0909 16.4641 10.2988 15.6137C10.4774 14.8866 13.3194 12.1542 14.9433 10.5297C15.5807 9.89146 15.2901 9.52328 14.5373 10.1104C12.6681 11.568 9.66703 13.7846 8.67478 14.4086C7.79945 14.9587 7.34311 15.0527 6.79746 14.9587C5.80196 14.7876 4.87872 14.5226 4.1252 14.1997C3.10696 13.7636 3.15649 12.3177 4.12439 11.8967L18.0094 5.85828Z" fill="#0B0A0A"/>
-                    </svg>
-                    <input type="text" placeholder="Написать">
-                  </div>
-                </div>
-                <input type="text" placeholder="Placeholder">
-                <button type="submit">
-                  ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
-                </button>
-              </form>
+                  <input type="text" placeholder="Placeholder" class="sm:h-auto h-[88px] mt-[20px] p-8 rounded-[999px] w-full border-bluesales border-[1px] font-Onest font-normal text-black-dark 2xl:text-2xl xl:text-20px md:text-[20px] sm:text-[18px] text-[16px] focus:outline-none
+                  2xl:leading-[32.4px] xl:leading-[27px] md:leading-[27px] sm:leading-[23.4px] leading-[21.6px] placeholder:text-black-light">
+                  <button type="submit" class="font-Onest rounded-[150px] font-normal text-white bg-bluesales p-8 2xl:text-2xl xl:text-20px md:text-[20px] sm:text-[18px] text-[16px] 2xl:leading-[32.4px] xl:leading-[27px] md:leading-[27px] sm:leading-[23.4px] leading-[21.6px] 2xl:mt-9 mt-[20px] w-full">
+                    ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
+                  </button>
+                </form>
+              </div>
             </div>
-          </div>
-          <div class="max-w-[777px]">
-            <img src="./assets/images/contact.png" alt="">
+            <div class="w-full">
+              <img class="2xl:max-w-[777px] xl:max-w-[634px] w-full 2xl:rounded-[35px] md:rounded-[20px] rounded-[4px]" src="./assets/images/contact.png" alt="">
+            </div>
           </div>
         </div>
       </section>

@@ -15,7 +15,7 @@ body {
 }
 
 .contact_container {
-  @apply max-w-[1880px] mx-auto p-17;
+  @apply max-w-[1880px] mx-auto p-17 rounded-[20px] 2xl:bg-transparent bg-white;
 }
 
 @media (max-width: 1500px) {
@@ -29,11 +29,11 @@ body {
 
 @media (max-width: 991px) {
   .container {
-    @apply p-5;
+    @apply p-5 rounded-xl;
   }
 
   .contact_container {
-    @apply p-5;
+    @apply p-5 rounded-xl;
   }
 }
 
