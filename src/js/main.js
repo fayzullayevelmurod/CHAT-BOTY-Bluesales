@@ -6,7 +6,7 @@ let swiper = new Swiper(".bluesalesSwiper", {
     prevEl: ".bluesales-button-prev",
   },
   pagination: {
-    el: ".comment-pagination",
+    el: ".bluesales-pagination",
     type: "fraction",
   },
   breakpoints: {
