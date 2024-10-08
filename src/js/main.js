@@ -25,11 +25,11 @@ let swiper2 = new Swiper(".bluesalestwoSwiper", {
   spaceBetween: 12,
   slidesPerView: 1,
   navigation: {
-    nextEl: ".bluesales-button-next",
-    prevEl: ".bluesales-button-prev",
+    nextEl: ".bluesalestwo-button-next",
+    prevEl: ".bluesalestwo-button-prev",
   },
   pagination: {
-    el: ".bluesales-pagination",
+    el: ".bluesalestwo-pagination",
     type: "fraction",
   },
   breakpoints: {
